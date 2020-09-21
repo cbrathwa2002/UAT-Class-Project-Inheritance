@@ -113,6 +113,9 @@ namespace UAT_Class_Project_Inhertance
                 Console.WriteLine("{0} {1} {2} {3}", user.FirstName, user.LastName, user.EmailAddress, user.WebSite);
                 switch (user.FirstName)
                 {
+                    case "Clarence":
+                        Console.WriteLine("\t\tClarence's home address is " + cb.HomeAddr.StreetAddress);
+                        break;
                     case "Thomas":
                         Console.WriteLine("\t\t==> {0}", "thomas' Home Address is " + thomas.HomeAddr.StreetAddress);
                         break;
